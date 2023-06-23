@@ -45,6 +45,6 @@ def app():
         st.write("Input Data: ")
         st.dataframe(df)
 
-        pred = model.predict(df)
+        predict = model.predict(df)
     
 app()
