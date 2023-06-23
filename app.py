@@ -1,8 +1,6 @@
 import joblib
 import streamlit as st
 import pandas as pd
-import xgboost
-import sklearn
 
 def app():
     model = joblib.load('Final_Model.h5')
@@ -46,6 +44,6 @@ def app():
         st.write("Input Data: ")
         st.dataframe(df)
 
-        pred = st.write(F"Prediction: {model.predict(df)} ")
+        pred = model.predict(df)
     
 app()
