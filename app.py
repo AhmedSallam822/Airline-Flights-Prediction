@@ -2,7 +2,6 @@ import joblib
 import streamlit as st
 import pandas as pd
 import xgboost
-import sklearn
 
 def app():
     model = joblib.load('Final_Model.h5')
