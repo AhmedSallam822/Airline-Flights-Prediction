@@ -46,5 +46,5 @@ def app():
         st.dataframe(df)
 
         pred = model.predict(df)
-    
+        pred
 app()
