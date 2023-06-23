@@ -47,4 +47,4 @@ def app():
 
         pred = model.predict(df)
     
-    app()
+app()
