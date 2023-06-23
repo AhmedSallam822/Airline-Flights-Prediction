@@ -45,4 +45,5 @@ def app():
         st.dataframe(df)
 
         pred = model.predict(df)
+        
 app()
